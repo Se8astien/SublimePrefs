@@ -1,0 +1,53 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//application 1
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "/Applications/Adobe Photoshop CC 2015.5/Adobe Photoshop CC 2015.5.app", // OSX
+									"extensions":"psd|png|jpg|jpeg"  //any file with these extensions
+								}
+			},
+
+			//separator
+			{"caption":"-"},
+
+			//application n
+			{
+				"caption": "Illustrator",
+				"id": "side-bar-files-open-with-illustrator",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "/Applications/Adobe Illustrator CC 2015.3/Adobe Illustrator.app",
+									"extensions":"svg|ai" //any file with extension
+								}
+			},
+
+			{"caption":"-"},
+
+			//application n
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "/Applications/Google Chrome.app",
+									"extensions":".*" //any file with extension
+								}
+			},
+
+			{"caption":"-"}
+		]
+	}
+]
